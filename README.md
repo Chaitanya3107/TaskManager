@@ -1,16 +1,32 @@
-# taskmanager
+# 📝 Task Manager App
 
-A new Flutter project.
+A simple **Task Manager** built with **Flutter & Spring Boot**, allowing users to **add, view, and complete tasks** with a sleek UI.
 
-## Getting Started
+## 🚀 Features
+- 📌 **Add Tasks** - Easily add new tasks to your list.
+- ✅ **Mark as Done** - Tap the checkmark to complete a task.
+- 📜 **Task List** - View all pending tasks in an organized list.
+- 🌟 **Modern UI** - Smooth animations & responsive design.
 
-This project is a starting point for a Flutter application.
+## 📸 Screenshots
+| Task List | Add Task |
+|-----------|---------|
+| ![Task List](link-to-screenshot1) | ![Add Task](link-to-screenshot2) |
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Installation & Setup
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1️⃣ **Clone the repository**
+```bash
+git clone https://github.com/yourusername/task-manager.git
+cd task-manager
+flutter pub get
+flutter run
+📂 task-manager
+ ┣ 📂 lib
+ ┃ ┣ 📂 models
+ ┃ ┣ 📂 screens
+ ┃ ┣ 📂 services
+ ┃ ┗ main.dart
+ ┣ 📂 assets
+ ┣ pubspec.yaml
+ ┗ README.md
